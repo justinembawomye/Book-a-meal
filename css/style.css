@@ -1,22 +1,40 @@
 #header{
-    color: orange;
+    color: #333;
    /* background-color: black;*/
     text-align: center;
-    padding:50px; 
+    font-weight: bold;
+    padding: 200px;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .accounts{
     text-align: right;
 }
 /* Body style */
-.container{
-    width: 80%;
+.mycontainer{
+    width: 100%;
     margin:auto;
     background-color:#f4f4f4;
-    border: 1px solid #ccc;
-    margin: 20px 5px;
-    padding: 20px;
+   /* border: 1px solid #ccc;*/
+   background-image: url("../img/home.jpg");
+   background-repeat: no-repeat; 
+   background-size: cover;
+
+  
 }
 
+/* login style */
+#my-login{
+    width: 360px;
+    padding: 8%;
+    margin: auto;
+
+}
+
+.my-form[input=text]{
+    background-color: #fff;
+    color:#000;
+}
 
 
 /* navbar style */
@@ -34,7 +52,7 @@ padding: 10px;
     
 }
 .navbar a:hover{
-    color:#005;
+    color:#fff;
 
 }
 .navbar a:active{
@@ -45,18 +63,21 @@ padding: 10px;
 
 /* order button style*/
 #button{
-    background-color:rgb(0 ,55, 0);
+    background-color:coral;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
+    margin-left: 300px;
     padding: 10px;
-    margin-left: 500px;
    
+}
+#button a{
+    text-decoration: none;
 }
 
 
 #button:hover{
-    background-color:#003;
+    background-color:coral;
     text-decoration: none;
     color: #fff;
     border-radius: 10px;
@@ -67,11 +88,13 @@ padding: 10px;
 }
 
 
-/* login button style */
+
+
 .button{
     background-color:blue;
     color: #fff;
     border-radius: 10px;
+    padding: 10px 15px;
   
    
 }
@@ -79,15 +102,20 @@ padding: 10px;
 .button{
     background-color:dodgerblue;
     color: #fff;
-    padding: 10px 15px;
+    
    
 }
 
 
 /* Register Form styles */
 .our-form{
-    padding: 10px;
-    display:block;
+    width: 360px;
+    padding: 8%;
+    margin: auto;
+    background-image: url(../img/login-bg.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
 }
 
 
@@ -128,6 +156,12 @@ padding: 10px;
 }
 
 /* login form style */
+#my-login{
+    width: 30%;
+    background-color: #555555;
+    opacity: 0.5;
+    
+}
 .my-form{
     padding:30px;
     display: block;
@@ -139,16 +173,35 @@ padding: 10px;
 }
 
 
-.my-form input[type = "text"]{
+.my-form{
    padding: 8px;
    width: 100%;
+   background-image: url(../img/login-bg.jpg);
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-color: #003;
+ 
+  
 }
+
+
+.my-form input {
+    outline: 0;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
 
 
 .my-form input[type = "password"]{
     padding: 8px;
     width: 100%;
  }
+
  
 
 .form-group{
@@ -204,12 +257,11 @@ th{
 
 
 
-body {
+   /*body {
 
-    /*
+  
     bg-image for body
 
-    background-image: url("top-banner.jpg");*/
 
     background-color: #f4f4f4;
     color: #555555;
@@ -234,7 +286,7 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
-
+*/
 
 
 
