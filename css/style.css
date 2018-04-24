@@ -1,0 +1,244 @@
+#header{
+    color: orange;
+   /* background-color: black;*/
+    text-align: center;
+    padding:50px; 
+}
+.accounts{
+    text-align: right;
+}
+/* Body style */
+.container{
+    width: 80%;
+    margin:auto;
+    background-color:#f4f4f4;
+    border: 1px solid #ccc;
+    margin: 20px 5px;
+    padding: 20px;
+}
+
+
+
+/* navbar style */
+.nav{
+background-color: #333;
+margin: 0 auto;
+padding: 10px;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color:orange;
+    margin: 10px;
+    
+}
+.navbar a:hover{
+    color:#005;
+
+}
+.navbar a:active{
+    color:green;
+
+}
+
+
+/* order button style*/
+#button{
+    background-color:rgb(0 ,55, 0);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 500px;
+   
+}
+
+
+#button:hover{
+    background-color:#003;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 500px;
+   
+}
+
+
+/* login button style */
+.button{
+    background-color:blue;
+    color: #fff;
+    border-radius: 10px;
+  
+   
+}
+
+.button{
+    background-color:dodgerblue;
+    color: #fff;
+    padding: 10px 15px;
+   
+}
+
+
+/* Register Form styles */
+.our-form{
+    padding: 10px;
+    display:block;
+}
+
+
+.our-form input[type="text"]{
+    width: 80%;
+    padding: 5px;
+
+}
+
+
+.our-form input[type="password"]{
+    width: 80%;
+    padding: 5px;
+
+}
+
+.our-form label{
+    display: block;
+}
+
+
+/* RegisterForm button */
+.button{
+    background-color:blue;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+
+
+/* Add meal button */
+#meals{
+    background-color:green;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+/* login form style */
+.my-form{
+    padding:30px;
+    display: block;
+}
+
+
+.my-form label{
+    display: block;
+}
+
+
+.my-form input[type = "text"]{
+   padding: 8px;
+   width: 100%;
+}
+
+
+.my-form input[type = "password"]{
+    padding: 8px;
+    width: 100%;
+ }
+ 
+
+.form-group{
+    padding-bottom:20px;
+}
+
+/*Meal-form style*/
+.meal-form{
+    padding: 10px;
+    display:block;
+}
+
+
+.meal-form input[type="text"]{
+    width: 80%;
+    padding: 5px;
+
+}
+
+
+.meal-form input[type="password"]{
+    width: 80%;
+    padding: 5px;
+
+}
+
+.meal-form label{
+    display: block;
+}
+/* table styles */
+table{
+    border: 1px solid #000;
+    width:80%;
+}
+th{
+    font-size: 25px;
+    margin-left: 1px;
+}
+
+#edit_meal{
+  background-color: grey;  
+}
+
+#edit_meal  a{
+ text-decoration: none; 
+  }
+
+
+#delete_meal{
+    background-color: #f00;
+}
+
+
+
+
+body {
+
+    /*
+    bg-image for body
+
+    background-image: url("top-banner.jpg");*/
+
+    background-color: #f4f4f4;
+    color: #555555;
+    background-repeat: no-repeat, repeat;
+    background-image: cover;
+  
+ }
+ .heading{
+     text-align: center;
+     line-height: 1.6em;
+     font: Helvetica, 20px, normal, Arial, sans-serif; 
+     margin: auto;
+     color: dodgerblue; 
+ }
+
+h1 {
+    color:black;
+    
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+
+
+
+
+
+  
+  
