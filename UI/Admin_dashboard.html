@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Meal Booking App</title>
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body class="container">
+
+
+<div class="nav">
+            <div class="navbar">
+                  
+                  <a href="/" class="active">Home</a>
+                  <a href="#orders">Orders</a>
+                    <a href="#Menu">Menu</a>
+                  <a href="/admin_register" class="active">Register</a>
+                  <a href="/logout" class="active">logout</a>
+                  <a href="#">payments</a>
+                 
+                  
+            
+                   </div>
+            
+             </div>
+            </div>
+        
+        
+
+<h1> Admin Dashboard  <small>Welcome Justine</small></h1>
+<a href="/meals" class="button" id="meals">Add meal</a>
+<br>
+<hr>
+
+<table>
+    <tr>
+        <th>Meal name</th>
+        <th>category</th>
+        <th>price</th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    
+    <tr>
+        <td>Rice</td>
+        <td>main</td>
+        <td>10000</td>
+        <td><a href="edit_meal/1" class="button" id="edit_meal">Edit</a></td>
+        <td>
+            <form action="/delete_meal/1" method="POST">
+                <input type="hidden" name="_method" value="Delete">
+                <input type="submit" value="Delete" class="button" id="delete_meal">
+            </form>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>Irish</td>
+        <td>main</td>
+        <td>15000</td>
+        <td><a href="edit_meal/2" class="button" id="edit_meal">Edit</a></td>
+        <td>
+            <form action="/delete_meal/2" method="POST">
+                <input type="hidden" name="_method" value="Delete">
+                <input type="submit" value="Delete" class="button" id="delete_meal">
+            </form>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>Soda</td>
+        <td>beverages</td>
+        <td>20000</td>
+        <td><a href="edit_meal/3" class="button" id="edit_meal">Edit</a></td>
+        <td>
+            <form action="/delete_meal/3" method="POST">
+                <input type="hidden" name="_method" value="Delete">
+                <input type="submit" value="Delete" class="button" id="delete_meal">
+            </form>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>salad</td>
+        <td>salads</td>
+        <td>30000</td>
+        <td><a href="edit_meal/4" class="button" id="edit_meal">Edit</a></td>
+        <td>
+            <form action="/delete_meal/4" method="POST">
+                <input type="hidden" name="_method" value="Delete">
+                <input type="submit" value="Delete" class="button" id="delete_meal">
+            </form>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>chicken</td>
+        <td>main</td>
+        <td>35000</td>
+        <td><a href="edit_meal/5" class="button" id="edit_meal">Edit</a></td>
+        <td>
+            <form action="/delete_meal/5" method="POST">
+                <input type="hidden" name="_method" value="Delete">
+                <input type="submit" value="Delete" class="button" id="delete_meal">
+            </form>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>Beef with rice</td>
+        <td>main</td>
+        <td>25000</td>
+        <td><a href="edit_meal/6" class="button" id="edit_meal">Edit</a></td>
+        <td>
+            <form action="/delete_meal/6" method="POST">
+                <input type="hidden" name="_method" value="Delete">
+                <input type="submit" value="Delete" class="button" id="delete_meal">
+            </form>
+        </td>
+    </tr>
+    
+</table>
+
+
+
+
+
+      <!--<script src="mealapp.js"></script>  -->
+</body>
+</html>
