@@ -232,13 +232,16 @@ padding: 10px;
     display: block;
 }
 /* table styles */
-table{
+.admin-table{
     border: 1px solid #000;
+    border-collapse: collapse;
     width:80%;
 }
-th{
+.admin-table th{
     font-size: 25px;
     margin-left: 1px;
+    font-weight: bold;
+
 }
 
 #edit_meal{
