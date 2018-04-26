@@ -6,13 +6,14 @@ users =[]
 
 @app.route('/auth/signup', methods = ['POST'])
 def signup():
-
     user_data = request.get_json()
-    name = user_data['name']
-    email = user_data['email']
-    username = user_data['username']
-    password = user_data['password']
-    #return '{} is a customer and her email is {}, username is {} and password is {}'.format(name, email, username, password))
+    newuser ={}
+    newuser['name'] = user_data['name']
+    newuser['email'] = user_data['email']
+    newuser['password'] = user_data['password']
+    users.append(newuser)
+    return jsonify({"users":users})
+    
     return 'User register'
 
 @app.route('/auth/login', methods = ['POST'])
